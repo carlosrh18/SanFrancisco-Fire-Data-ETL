@@ -1,0 +1,24 @@
+version: 2
+
+models:
+  - name: fire_incidents_stage
+    description: "Staging model that cleans raw fire incident data."
+    columns:
+      - name: incident_number
+        description: "Unique ID for each fire incident"
+      - name: incident_date
+        description: "Date of incident"
+      - name: battalion
+        description: "Battalion code"
+      - name: district
+        description: "Supervisor district"
+
+  - name: incidents_by_battalion
+    description: "Weekly incident count by battalion"
+    columns:
+      - name: week
+        description: "Start of week"
+      - name: battalion
+        description: "Battalion code"
+      - name: total_incidents
+        description: "Number of incidents in the week"

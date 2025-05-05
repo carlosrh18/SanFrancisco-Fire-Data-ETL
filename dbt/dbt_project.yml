@@ -1,0 +1,4 @@
+name: 'fire_incidents'
+version: '1.0'
+profile: 'default'
+source-paths: ["models"]
