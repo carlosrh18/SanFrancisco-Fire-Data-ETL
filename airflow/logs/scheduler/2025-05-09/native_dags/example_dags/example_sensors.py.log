@@ -1,0 +1,25 @@
+[2025-05-09T15:57:27.508-0600] {processor.py:161} INFO - Started process (PID=53909) to work on /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T15:57:27.508-0600] {processor.py:830} INFO - Processing file /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-09T15:57:27.509-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:27.509-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T15:57:27.536-0600] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T15:57:27.618-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:27.618-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-05-09T15:57:27.622-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:27.622-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-05-09T15:57:27.624-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:27.624-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-05-09T15:57:27.624-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:27.624-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-09T15:57:27.628-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:27.628-0600] {dag.py:3058} INFO - Creating ORM DAG for example_sensors
+[2025-05-09T15:57:27.628-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:27.628-0600] {dag.py:3823} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-09T15:57:27.634-0600] {processor.py:183} INFO - Processing /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.127 seconds
+[2025-05-09T15:59:48.602-0600] {processor.py:161} INFO - Started process (PID=54289) to work on /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T15:59:48.603-0600] {processor.py:830} INFO - Processing file /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-09T15:59:48.604-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:59:48.604-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T15:59:48.633-0600] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T15:59:48.682-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:59:48.682-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-09T15:59:48.686-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:59:48.686-0600] {dag.py:3823} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-09T15:59:48.693-0600] {processor.py:183} INFO - Processing /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.091 seconds
+[2025-05-09T16:01:17.137-0600] {processor.py:161} INFO - Started process (PID=54590) to work on /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T16:01:17.137-0600] {processor.py:830} INFO - Processing file /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-05-09T16:01:17.138-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:17.137-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T16:01:17.163-0600] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-05-09T16:01:17.212-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:17.211-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-09T16:01:17.215-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:17.215-0600] {dag.py:3823} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-05-09T16:01:17.222-0600] {processor.py:183} INFO - Processing /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.086 seconds

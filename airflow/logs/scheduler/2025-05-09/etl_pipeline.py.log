@@ -1,0 +1,18 @@
+[2025-05-09T16:00:22.985-0600] {processor.py:161} INFO - Started process (PID=54506) to work on /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py
+[2025-05-09T16:00:22.986-0600] {processor.py:830} INFO - Processing file /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py for tasks to queue
+[2025-05-09T16:00:22.986-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:00:22.986-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py
+[2025-05-09T16:00:23.011-0600] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py
+[2025-05-09T16:00:23.093-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:00:23.093-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:etl_pipeline
+[2025-05-09T16:00:23.096-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:00:23.096-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:etl_pipeline
+[2025-05-09T16:00:23.098-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:00:23.098-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:etl_pipeline
+[2025-05-09T16:00:23.098-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:00:23.098-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-09T16:00:23.102-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:00:23.102-0600] {dag.py:3058} INFO - Creating ORM DAG for etl_pipeline
+[2025-05-09T16:00:23.105-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:00:23.105-0600] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-05-08 00:00:00+00:00, run_after=2025-05-09 00:00:00+00:00
+[2025-05-09T16:00:23.111-0600] {processor.py:183} INFO - Processing /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py took 0.127 seconds
+[2025-05-09T16:02:01.097-0600] {processor.py:161} INFO - Started process (PID=54640) to work on /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py
+[2025-05-09T16:02:01.098-0600] {processor.py:830} INFO - Processing file /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py for tasks to queue
+[2025-05-09T16:02:01.098-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:02:01.098-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py
+[2025-05-09T16:02:01.121-0600] {processor.py:840} INFO - DAG(s) 'etl_pipeline' retrieved from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py
+[2025-05-09T16:02:01.159-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:02:01.159-0600] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-05-09T16:02:01.166-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:02:01.166-0600] {dag.py:3823} INFO - Setting next_dagrun for etl_pipeline to 2025-05-09 00:00:00+00:00, run_after=2025-05-10 00:00:00+00:00
+[2025-05-09T16:02:01.172-0600] {processor.py:183} INFO - Processing /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/dags/etl_pipeline.py took 0.076 seconds

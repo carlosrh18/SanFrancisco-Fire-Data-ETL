@@ -1,0 +1,48 @@
+[2025-05-09T15:57:55.852-0600] {processor.py:161} INFO - Started process (PID=53960) to work on /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-09T15:57:55.852-0600] {processor.py:830} INFO - Processing file /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2025-05-09T15:57:55.853-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.852-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-09T15:57:55.878-0600] {processor.py:840} INFO - DAG(s) 'dataset_produces_1', 'dataset_consumes_1_never_scheduled', 'dataset_consumes_unknown_never_scheduled', 'dataset_produces_2', 'dataset_consumes_1', 'dataset_consumes_1_and_2' retrieved from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-09T15:57:55.948-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.948-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:dataset_produces_1
+[2025-05-09T15:57:55.951-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.951-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:dataset_produces_1
+[2025-05-09T15:57:55.953-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.953-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:dataset_produces_1
+[2025-05-09T15:57:55.957-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.957-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:dataset_consumes_1_never_scheduled
+[2025-05-09T15:57:55.959-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.959-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:dataset_consumes_1_never_scheduled
+[2025-05-09T15:57:55.961-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.961-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:dataset_consumes_1_never_scheduled
+[2025-05-09T15:57:55.965-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.965-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:dataset_consumes_unknown_never_scheduled
+[2025-05-09T15:57:55.967-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.967-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:dataset_consumes_unknown_never_scheduled
+[2025-05-09T15:57:55.969-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.969-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:dataset_consumes_unknown_never_scheduled
+[2025-05-09T15:57:55.974-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.974-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:dataset_produces_2
+[2025-05-09T15:57:55.977-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.977-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:dataset_produces_2
+[2025-05-09T15:57:55.979-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.979-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:dataset_produces_2
+[2025-05-09T15:57:55.984-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.984-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:dataset_consumes_1
+[2025-05-09T15:57:55.986-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.986-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:dataset_consumes_1
+[2025-05-09T15:57:55.988-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.988-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:dataset_consumes_1
+[2025-05-09T15:57:55.992-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.992-0600] {override.py:1769} INFO - Created Permission View: can read on DAG:dataset_consumes_1_and_2
+[2025-05-09T15:57:55.994-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.993-0600] {override.py:1769} INFO - Created Permission View: can edit on DAG:dataset_consumes_1_and_2
+[2025-05-09T15:57:55.995-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.995-0600] {override.py:1769} INFO - Created Permission View: can delete on DAG:dataset_consumes_1_and_2
+[2025-05-09T15:57:55.995-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:55.995-0600] {dag.py:3036} INFO - Sync 6 DAGs
+[2025-05-09T15:57:56.000-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.000-0600] {dag.py:3058} INFO - Creating ORM DAG for dataset_produces_2
+[2025-05-09T15:57:56.000-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.000-0600] {dag.py:3058} INFO - Creating ORM DAG for dataset_consumes_1
+[2025-05-09T15:57:56.000-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.000-0600] {dag.py:3058} INFO - Creating ORM DAG for dataset_consumes_unknown_never_scheduled
+[2025-05-09T15:57:56.000-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.000-0600] {dag.py:3058} INFO - Creating ORM DAG for dataset_consumes_1_never_scheduled
+[2025-05-09T15:57:56.000-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.000-0600] {dag.py:3058} INFO - Creating ORM DAG for dataset_produces_1
+[2025-05-09T15:57:56.001-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.001-0600] {dag.py:3058} INFO - Creating ORM DAG for dataset_consumes_1_and_2
+[2025-05-09T15:57:56.003-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.003-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2025-05-09T15:57:56.004-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.004-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2025-05-09T15:57:56.004-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.004-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2025-05-09T15:57:56.004-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.004-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2025-05-09T15:57:56.005-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.005-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_produces_1 to 2025-05-08 00:00:00+00:00, run_after=2025-05-09 00:00:00+00:00
+[2025-05-09T15:57:56.005-0600] {logging_mixin.py:188} INFO - [2025-05-09T15:57:56.005-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2025-05-09T15:57:56.022-0600] {processor.py:183} INFO - Processing /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 0.170 seconds
+[2025-05-09T16:01:43.481-0600] {processor.py:161} INFO - Started process (PID=54619) to work on /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-09T16:01:43.482-0600] {processor.py:830} INFO - Processing file /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2025-05-09T16:01:43.482-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:43.482-0600] {dagbag.py:538} INFO - Filling up the DagBag from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-09T16:01:43.509-0600] {processor.py:840} INFO - DAG(s) 'dataset_consumes_1_and_2', 'dataset_produces_2', 'dataset_consumes_1_never_scheduled', 'dataset_produces_1', 'dataset_consumes_unknown_never_scheduled', 'dataset_consumes_1' retrieved from /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2025-05-09T16:01:43.553-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:43.553-0600] {dag.py:3036} INFO - Sync 6 DAGs
+[2025-05-09T16:01:43.560-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:43.560-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2025-05-09T16:01:43.561-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:43.561-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2025-05-09T16:01:43.562-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:43.562-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2025-05-09T16:01:43.562-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:43.562-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2025-05-09T16:01:43.563-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:43.563-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_produces_1 to 2025-05-08 00:00:00+00:00, run_after=2025-05-09 00:00:00+00:00
+[2025-05-09T16:01:43.563-0600] {logging_mixin.py:188} INFO - [2025-05-09T16:01:43.563-0600] {dag.py:3823} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2025-05-09T16:01:43.573-0600] {processor.py:183} INFO - Processing /Users/crobles18/Downloads/fire_incidents_pipeline/airflow/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 0.093 seconds

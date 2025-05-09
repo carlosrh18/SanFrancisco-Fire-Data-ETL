@@ -1,0 +1,40 @@
+[core]
+dags_folder = /home/carlos/my_airflow_project/dags
+base_log_folder = /home/carlos/my_airflow_project/logs
+plugins_folder = /home/carlos/my_airflow_project/plugins
+executor = LocalExecutor
+sql_alchemy_conn = postgresql+psycopg2://airflow:airflow@localhost:5432/airflow
+dags_are_paused_at_creation = False
+load_examples = False
+default_timezone = utc
+
+[logging]
+remote_logging = False
+log_level = INFO
+log_format = [%%(asctime)s] {%%(filename)s:%%(lineno)d} %%(levelname)s - %%(message)s
+simple_log_format = %%(asctime)s %%(levelname)s - %%(message)s
+colored_console_log = True
+
+[webserver]
+base_url = http://localhost:8080
+web_server_port = 8080
+web_server_host = 0.0.0.0
+expose_config = True
+authenticate = False
+
+[scheduler]
+max_threads = 4
+catchup_by_default = False
+dag_dir_list_interval = 30
+
+[email]
+email_backend = airflow.utils.email.send_email_smtp
+smtp_host = localhost
+smtp_port = 25
+smtp_starttls = False
+smtp_ssl = False
+smtp_user =
+smtp_password =
+
+[metrics]
+statsd_on = False
